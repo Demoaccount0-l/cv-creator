@@ -1,11 +1,15 @@
-import './App.css'
+import Header from "./components/Header"
+import MainSection from "./components/MainSection"
+import './style.css'
 
 function App() {
 
   return (
-    <>
-      <h2>Greetings</h2>
-    </>
+    <div className="cv-app">
+      <Header />
+      <MainSection />
+      
+    </div>
   )
 }
 

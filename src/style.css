@@ -1,0 +1,91 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b0bec5;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(17, 79, 90);
+    color: white;
+}
+
+header h2 {
+    padding: 0.4rem 0;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+main{
+    width: 50vw;
+    background-color: whitesmoke;
+    margin: 1rem auto;
+    border: 1px solid grey;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+main form{
+    width: 40vw;
+    margin: 1rem auto;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+section h3{
+    text-align: center;
+    letter-spacing: 0.12rem;  
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+
+
+
+section label{
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+section input,section textarea{ 
+    padding: 6px;
+    font-size: 0.9rem;
+}
+
+section label:focus, section input:focus, section textarea:focus{
+    outline: none;
+}
+
+main button{
+    padding: 0.6rem;
+    cursor: pointer;
+    background-color: rgb(17, 79, 90);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    width: max-content;
+    margin: 0 auto;
+    display: block;
+}
+
+.preview section{
+    display: none;
+}
